@@ -5,7 +5,9 @@ Hi, I’m m1k3datx! Welcome to my coding playground and repository hub. I’m pa
 About Me
 
 🎓 Student at The University of Texas at Austin
-Pursuing a Government major with a Sociology minor, focusing on research in treaty implementation and global discourse.
+Pursuing simultaneous degrees in Sociology and Government
+
+
 💻 AI Enthusiast & Social Science Researcher
 Using Python and AI tools to advance research methodologies.
 
