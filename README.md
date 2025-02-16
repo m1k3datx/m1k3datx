@@ -13,7 +13,7 @@ Using Python and AI tools to advance research methodologies.
 
 Fun Facts
 
-🎮 Gamer: Big fan of immersive RPGs and cloud gaming via Xbox Game Pass.
+🎮 Gamer: Big fan of immersive RPGs and cloud gaming via Xbox Game Pass & PS Plus.
 
 ☕ Caffeine Buff: Always optimizing for productivity while balancing sleep.
 
