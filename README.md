@@ -8,11 +8,11 @@ I build practical Python tools for working with text and exploring questions in 
 
 ### [TreatyClassificationTool](https://github.com/m1k3datx/TreatyClassificationTool)
 
-A research prototype for finding treaty mentions in speech data, classifying them into policy-relevant categories, processing records in batches, and exporting results to CSV. I built the current workflow as an exploratory research tool; its labels and results depend on the source data and are not a substitute for expert legal or policy analysis. This remains a prototype until the corrected implementation in [PR #2](https://github.com/m1k3datx/TreatyClassificationTool/pull/2) merges and supersedes the current public version.
+A research prototype for finding treaty mentions in speech data, classifying them into policy-relevant categories, processing records in batches, and exporting results to CSV. I built the current workflow as an exploratory research tool; its labels and results depend on the source data and are not a substitute for expert legal or policy analysis. This remains a prototype until the consolidated corrective implementation in [PR #3](https://github.com/m1k3datx/TreatyClassificationTool/pull/3) merges and supersedes the current public version.
 
 ### [text_classification_nlp](https://github.com/m1k3datx/text_classification_nlp)
 
-A research prototype studying US economic news relevance. I developed the current preprocessing and comparison workflow, which cleans and balances labeled text, creates TF-IDF features, and compares supervised classification approaches. The findings are exploratory and limited by the dataset, labels, and evaluation design; this remains a prototype until the [corrective reproducibility work in PR #2](https://github.com/m1k3datx/text_classification_nlp/pull/2) merges.
+A research prototype studying US economic news relevance. I developed the current preprocessing and comparison workflow, which cleans and balances labeled text, creates TF-IDF features, and compares supervised classification approaches. The findings are exploratory and limited by the dataset, labels, and evaluation design; this remains a prototype until the [consolidated corrective reproducibility work in PR #3](https://github.com/m1k3datx/text_classification_nlp/pull/3) merges.
 
 ### [passwordgenerator](https://github.com/m1k3datx/passwordgenerator)
 
