@@ -8,15 +8,15 @@ I build practical Python tools for working with text and exploring questions in 
 
 ### [TreatyClassificationTool](https://github.com/m1k3datx/TreatyClassificationTool)
 
-A command-line workflow for finding treaty mentions in speech data, classifying them into policy-relevant categories, processing records in batches, and exporting results to CSV.
+A research prototype for finding treaty mentions in speech data, classifying them into policy-relevant categories, processing records in batches, and exporting results to CSV. I built the current workflow as an exploratory research tool; its labels and results depend on the source data and are not a substitute for expert legal or policy analysis. A corrected implementation is in [PR #1](https://github.com/m1k3datx/TreatyClassificationTool/pull/1) and will supersede the current public version when it merges.
 
 ### [text_classification_nlp](https://github.com/m1k3datx/text_classification_nlp)
 
-An NLP study of US economic news relevance. The project cleans and balances labeled text, creates TF-IDF features, and compares several supervised classification approaches.
+A research prototype studying US economic news relevance. I developed the current preprocessing and comparison workflow, which cleans and balances labeled text, creates TF-IDF features, and compares supervised classification approaches. The findings are exploratory and limited by the dataset, labels, and evaluation design; see the [corrective reproducibility work in PR #1](https://github.com/m1k3datx/text_classification_nlp/pull/1) until it merges.
 
 ### [passwordgenerator](https://github.com/m1k3datx/passwordgenerator)
 
-A small Python utility for generating configurable passwords from letters, digits, and punctuation.
+A supporting Python utility for generating configurable passwords from letters, digits, and punctuation.
 
 ## Skills and focus
 
