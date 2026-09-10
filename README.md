@@ -1,29 +1,36 @@
 # m1k3datx
 
-AI, natural language processing, and research at the intersection of technology, society, and law.
+Python, NLP, and research automation for questions at the intersection of technology, society, and law.
 
-I build practical Python tools for working with text and exploring questions in social-science and legal research. My interests include NLP workflows, classification, research automation, and the responsible use of AI to make complex source material easier to analyze.
+I build research prototypes and learning projects for working with text and exploring questions in policy and social science. These projects are not production systems or validated research, and their results depend on the data, labels, assumptions, and evaluation choices behind them.
 
 ## Featured projects
 
-### [TreatyClassificationTool](https://github.com/m1k3datx/TreatyClassificationTool)
+### [Treaty Classification Tool](https://github.com/m1k3datx/TreatyClassificationTool)
 
-A research prototype for finding treaty mentions in speech data, classifying them into policy-relevant categories, processing records in batches, and exporting results to CSV. I built the current workflow as an exploratory research tool; its labels and results depend on the source data and are not a substitute for expert legal or policy analysis. This remains a prototype until the consolidated corrective implementation in [PR #3](https://github.com/m1k3datx/TreatyClassificationTool/pull/3) merges and supersedes the current public version.
+A Python research tool for identifying treaty mentions in speech data and analyzing the stance expressed toward a specified treaty. Uses transparent classification rules, provides supporting evidence, and flags ambiguous text for human review. Includes batch processing, CSV exports, automated tests, and continuous integration.
 
-### [text_classification_nlp](https://github.com/m1k3datx/text_classification_nlp)
+This remains a research prototype and should support, not replace, expert legal or policy analysis.
 
-A research prototype studying US economic news relevance. I developed the current preprocessing and comparison workflow, which cleans and balances labeled text, creates TF-IDF features, and compares supervised classification approaches. The findings are exploratory and limited by the dataset, labels, and evaluation design; this remains a prototype until the [consolidated corrective reproducibility work in PR #3](https://github.com/m1k3datx/text_classification_nlp/pull/3) merges.
+### [Economic News Classification](https://github.com/m1k3datx/text_classification_nlp)
 
-### [passwordgenerator](https://github.com/m1k3datx/passwordgenerator)
+A reproducible NLP workflow for classifying the relevance of news articles to the U.S. economy. Compares logistic regression, support vector machines, and naive Bayes using TF-IDF features, cross-validation, and a baseline model. Includes duplicate handling, evaluation reports, automated tests, and documented research limitations.
 
-A supporting Python utility for generating configurable passwords from letters, digits, and punctuation.
+This remains an exploratory learning and research project rather than a production classifier or validated economic measurement.
+
+## Additional project
+
+### [Password Generator](https://github.com/m1k3datx/passwordgenerator)
+
+A Python command-line utility using cryptographically secure randomness, configurable character sets, and input validation. Includes automated tests and continuous integration.
 
 ## Skills and focus
 
-- **Languages and tools:** Python, pandas, NumPy, scikit-learn, NLTK, CSV data workflows
-- **AI and NLP:** text cleaning, tokenization, lemmatization, TF-IDF feature extraction, supervised classification, model comparison
-- **Research:** social-science and legal data, treaty and policy text, reproducible analysis, research automation
+- Python and data: pandas, scikit-learn, data preparation, and CSV workflows
+- NLP and evaluation: text classification, TF-IDF, cross-validation, baseline comparison, and error analysis
+- Software quality: automated testing, GitHub Actions, documentation, and reproducible workflows
+- Research applications: policy text analysis, social-science research, and tools that support human judgment
 
 ## Collaboration
 
-I’m interested in thoughtful collaborations on AI/NLP projects, research tooling, and questions involving social or legal systems. To connect, open an issue or discussion in a relevant repository with a clear description of the idea, question, or potential contribution.
+I'm interested in opportunities to apply Python, NLP, and research automation to practical problems in policy, social science, and organizational decision-making. For project questions or collaboration ideas, open an issue in the relevant repository.
