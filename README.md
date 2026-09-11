@@ -1,36 +1,43 @@
 # m1k3datx
 
-Python, NLP, and research automation for questions at the intersection of technology, society, and law.
+I build practical tools and prototypes that turn complex information into structured, usable insights.
 
-I build research prototypes and learning projects for working with text and exploring questions in policy and social science. These projects are not production systems or validated research, and their results depend on the data, labels, assumptions, and evaluation choices behind them.
+My projects combine **AI, research, automation, and disciplined project execution**, with an emphasis on transparent methods, reproducibility, testing, and human judgment.
 
 ## Featured projects
 
 ### [Treaty Classification Tool](https://github.com/m1k3datx/TreatyClassificationTool)
 
-A Python research tool for identifying treaty mentions in speech data and analyzing the stance expressed toward a specified treaty. Uses transparent classification rules, provides supporting evidence, and flags ambiguous text for human review. Includes batch processing, CSV exports, automated tests, and continuous integration.
+A research tool for identifying treaty references in speech data and analyzing the stance expressed toward a specified treaty.
 
-This remains a research prototype and should support, not replace, expert legal or policy analysis.
+Built with transparent classification logic, evidence tracing, ambiguity detection, batch processing, CSV exports, automated testing, and continuous integration. The project explores how automated text analysis can support policy and legal research while keeping human review in the decision process.
 
 ### [Economic News Classification](https://github.com/m1k3datx/text_classification_nlp)
 
-A reproducible NLP workflow for classifying the relevance of news articles to the U.S. economy. Compares logistic regression, support vector machines, and naive Bayes using TF-IDF features, cross-validation, and a baseline model. Includes duplicate handling, evaluation reports, automated tests, and documented research limitations.
+An NLP workflow for evaluating whether news articles are relevant to the U.S. economy.
 
-This remains an exploratory learning and research project rather than a production classifier or validated economic measurement.
+Compares multiple classification approaches using TF-IDF features, cross-validation, baseline benchmarking, duplicate handling, and structured evaluation. The project demonstrates model comparison, research design, error analysis, and reproducible analytical workflows.
 
 ## Additional project
 
 ### [Password Generator](https://github.com/m1k3datx/passwordgenerator)
 
-A Python command-line utility using cryptographically secure randomness, configurable character sets, and input validation. Includes automated tests and continuous integration.
+A Python command-line utility for generating secure passwords using cryptographically secure randomness, configurable character sets, and input validation.
 
-## Skills and focus
+Includes automated testing and continuous integration.
 
-- Python and data: pandas, scikit-learn, data preparation, and CSV workflows
-- NLP and evaluation: text classification, TF-IDF, cross-validation, baseline comparison, and error analysis
-- Software quality: automated testing, GitHub Actions, documentation, and reproducible workflows
-- Research applications: policy text analysis, social-science research, and tools that support human judgment
+## What these projects demonstrate
 
-## Collaboration
+- **Problem framing:** translating broad questions into structured workflows and testable approaches
+- **AI & automation:** applying NLP, classification, and automation to practical research problems
+- **Data & evaluation:** pandas, scikit-learn, TF-IDF, cross-validation, benchmarking, and error analysis
+- **Execution quality:** automated testing, GitHub Actions, documentation, and reproducible workflows
+- **Human-centered design:** building tools that support informed judgment rather than obscure it
 
-I'm interested in opportunities to apply Python, NLP, and research automation to practical problems in policy, social science, and organizational decision-making. For project questions or collaboration ideas, open an issue in the relevant repository.
+## Current interests
+
+I'm interested in applying AI, automation, research, and product thinking to problems in organizations, policy, technology, and decision-making.
+
+Projects here are prototypes and exploratory work, with limitations documented in their respective repositories.
+Python, NLP, and research automation for questions at the intersection of technology, society, and law.
+
