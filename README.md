@@ -1,24 +1,30 @@
 # m1k3datx
 
-I build practical tools and prototypes that turn complex information into structured, usable insights.
+I build **AI-powered tools, agentic workflows, and automation systems** that turn complex information into structured, usable outputs.
 
-My projects combine **AI, research, automation, and disciplined project execution**, with an emphasis on transparent methods, reproducibility, testing, and human judgment.
+My work focuses on practical applications of AI, including **agent orchestration, evaluation, human-in-the-loop systems, NLP, and workflow automation**, with an emphasis on transparent logic, testable outputs, and reliable execution.
 
-## Featured projects
+## Featured project
 
 ### [Treaty Classification Tool](https://github.com/m1k3datx/TreatyClassificationTool)
 
-A research tool for identifying treaty references in speech data and analyzing the stance expressed toward a specified treaty.
+An AI-assisted system for identifying treaty references in legislative speech and analyzing the position expressed toward a specified treaty.
 
-Built with transparent classification logic, evidence tracing, ambiguity detection, batch processing, CSV exports, automated testing, and continuous integration. The project explores how automated text analysis can support policy and legal research while keeping human review in the decision process.
+The project includes an **OpenAI Agents SDK workflow**, Gemini-based analysis, and a deterministic offline baseline.
+
+The OpenAI workflow uses two stages: an initial classification followed by an independent review. Python verifies that cited evidence appears in the source, compares the two judgments, and routes disagreement, invalid evidence, or uncertain classifications to human review.
+
+The workflow also produces structured reports containing source text, AI judgments, evidence checks, model and prompt metadata, and source hashes.
+
+**Technical focus:** agent orchestration, structured LLM outputs, AI evaluation, evidence validation, human-in-the-loop workflows, API integration, prompt design, automated testing, and reproducible reporting.
+
+## Other projects
 
 ### [Economic News Classification](https://github.com/m1k3datx/text_classification_nlp)
 
-An NLP workflow for evaluating whether news articles are relevant to the U.S. economy.
+A reproducible NLP and machine-learning workflow for classifying the relevance of news articles to the U.S. economy.
 
-Compares multiple classification approaches using TF-IDF features, cross-validation, baseline benchmarking, duplicate handling, and structured evaluation. The project demonstrates model comparison, research design, error analysis, and reproducible analytical workflows.
-
-## Additional project
+Compares logistic regression, support vector machines, and naive Bayes using TF-IDF, stratified cross-validation, holdout evaluation, baseline benchmarking, class-imbalance handling, and duplicate-leakage prevention.
 
 ### [Password Generator](https://github.com/m1k3datx/passwordgenerator)
 
@@ -26,18 +32,16 @@ A Python command-line utility for generating secure passwords using cryptographi
 
 Includes automated testing and continuous integration.
 
-## What these projects demonstrate
+## Areas of focus
 
-- **Problem framing:** translating broad questions into structured workflows and testable approaches
-- **AI & automation:** applying NLP, classification, and automation to practical research problems
-- **Data & evaluation:** pandas, scikit-learn, TF-IDF, cross-validation, benchmarking, and error analysis
-- **Execution quality:** automated testing, GitHub Actions, documentation, and reproducible workflows
-- **Human-centered design:** building tools that support informed judgment rather than obscure it
+- **Agentic AI:** bounded agents, multi-stage workflows, review loops, and escalation logic
+- **AI systems:** combining models, APIs, validation logic, and application workflows
+- **AI evaluation:** evidence validation, disagreement detection, structured outputs, and model comparison
+- **Human-in-the-loop design:** pairing automation with explicit validation and review
+- **Workflow automation:** turning complex inputs into structured, repeatable processes
+- **NLP & machine learning:** text classification, TF-IDF, scikit-learn, benchmarking, and error analysis
+- **Software quality:** automated testing, GitHub Actions, documentation, input validation, and reproducibility
 
-## Current interests
+## Current focus
 
-I'm interested in applying AI, automation, research, and product thinking to problems in organizations, policy, technology, and decision-making.
-
-Projects here are prototypes and exploratory work, with limitations documented in their respective repositories.
-Python, NLP, and research automation for questions at the intersection of technology, society, and law.
-
+I’m interested in building and operating **AI systems, agentic workflows, and intelligent automation** that improve how organizations analyze information, make decisions, and execute work.
